@@ -1,7 +1,27 @@
+header{
+    text-align: center;
+    color: white;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
 section {
-    background: gray;
+    text-align: center;
+    
 }
 body{
-    background: white;
-    color: black;
+    
+    background-image:url("https://wallpapercave.com/wp/361ttBB.jpg");
+    background-color: white;
+    color: white;
+    
+    background-size:auto;
+    
+}
+
+footer{
+    text-align: center;
 }
