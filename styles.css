@@ -1,6 +1,8 @@
 header{
     text-align: center;
-    color: white;
+    color: black;
+    margin-top: 1cm;
+    
 }
 
 *{
@@ -13,15 +15,26 @@ section {
     
 }
 body{
-    
-    background-image:url("https://wallpapercave.com/wp/361ttBB.jpg");
-    background-color: white;
+    text-align: center;
+    background-image:url("https://i.ibb.co/khKfMLG/wallpaperbetter-com-1920x1080.jpg");
+    background-color: gray;
     color: white;
     
-    background-size:auto;
+    background-size: auto;
     
 }
 
 footer{
     text-align: center;
 }
+
+a{
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+#principal{
+    margin-top: 2cm;
+    color: white;
+}
+
