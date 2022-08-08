@@ -7,10 +7,15 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    
 }
+
 
 #aplogo{
     margin-left: 80px;
+}
+#fblogo{
+    margin-right: 80px;
 }
 
 .items{
@@ -41,5 +46,9 @@ footer{
 #principal{
     margin-top: 2cm;
     color: white;
+}
+
+#perfil{
+    margin-top: 150px;
 }
 
