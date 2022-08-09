@@ -7,12 +7,14 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    
+}
+.navbar{
+   margin-left: 50px;
+   margin-right: 50px;
 }
 
-
-#aplogo{
-    margin-left: 80px;
+.logos{
+    margin-right: 5px;
 }
 .items{
     color: black;
