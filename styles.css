@@ -13,10 +13,11 @@ header{
    margin-right: 50px;
 }
 
-
-.logosap img{
-    height: 28px;
+.logosap,image{
+    text-align: right;
+    margin-right: 90px;
 }
+
 .logos,input{
     text-align: right;
     height: 16%;
