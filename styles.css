@@ -13,17 +13,14 @@ header{
    margin-right: 50px;
 }
 
-#aplogo{
-    height: 28px;
-}
 
-.logosap{
-    
+.logosap img{
+    height: 28px;
 }
 .logos,input{
     text-align: right;
-    height: 15%;
-    width: 15%;
+    height: 16%;
+    width: 16%;
 }
 
 *{
