@@ -3,7 +3,7 @@ header{
     color: black;
     background-color: white;
     position: fixed;
-    height: 45px;
+    height: 48px;
     width: 100%;
     top: 0;
     left: 0;
@@ -13,6 +13,9 @@ header{
    margin-right: 50px;
 }
 
+#aplogo{
+height: 28px;
+}
 .logos{
     margin-right: 5px;
 }
