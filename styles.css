@@ -14,16 +14,18 @@ header{
 }
 
 #aplogo{
-height: 28px;
+    height: 28px;
 }
-.logos{
-    margin-right: 5px;
+
+.logosap{
+    
 }
-.items{
-    color: black;
-    text-decoration: none;
-    font-size: 14pt;
+.logos,input{
+    text-align: right;
+    height: 15%;
+    width: 15%;
 }
+
 *{
     font-family: sans-serif;
     margin: 0;
