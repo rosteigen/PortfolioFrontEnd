@@ -14,8 +14,7 @@ header{
 }
 
 .logosap,image{
-    text-align: right;
-    margin-right: 90px;
+    
 }
 
 .logos,input{
@@ -41,12 +40,9 @@ footer{
 }
 
 
-#principal{
-    margin-top: 2cm;
+.container{
+    margin-top: 90px;
     color: white;
-}
-
-#perfil{
-    margin-top: 150px;
+    padding: 0;
 }
 
