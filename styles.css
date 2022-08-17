@@ -79,10 +79,8 @@ body {
 .banner{
     background-color: black;
     margin: auto;
-    
 }
 .perfil{
-    text-align: right;
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 750px;
 }
