@@ -1,25 +1,5 @@
 * {
     font-family: monospace;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    display: flex;
-}
-
-.body {
-    display: flex;
-    background: black;
-}
-
-.navbar {
-    width: 100%;
-    height: 50px;
-    padding: 0px 50px 0px 50px;
 }
 
 .navegacion {
@@ -27,6 +7,15 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color: black;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .logos-left,
@@ -34,6 +23,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logos-right {
+    margin-right: 35px;
+}
+
+.logos-left {
+    margin-left: 35px;
 }
 
 .logoap img {
@@ -57,6 +54,14 @@
     font-size: 18px;
 }
 
+.login a:hover {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 15px #fdfdfd;
+    color: #00f7ff;
+}
+
 html,
 body {
     width: 100%;
@@ -64,22 +69,24 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background: black;
 }
 
-.redes ul{
+.redes ul {
     list-style: none;
     height: 50px;
     margin: 0;
     padding: 0;
 }
+
 .redes {
     margin-right: 15px;
-}   
+}
 
 .redes ul li {
     margin-right: 10px;
     height: 50px;
-    width: 35px;    
+    width: 35px;
     line-height: 50px;
     cursor: pointer;
     float: left;
@@ -159,12 +166,14 @@ body {
     transition: all 0.5s ease;
 }
 
-.banner{
+.banner {
     background-color: white;
     margin-top: 50px;
-    
+    height: 600px;
+    width: 900px;
+    align-self: center;
 }
 
 .perfil {
-    margin: auto;
+
 }
