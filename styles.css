@@ -16,6 +16,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 .logos-left,
@@ -179,5 +180,11 @@ body {
 }
 
 .AcercaDe{
-    width: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.foto{
+    height: 300px;
+    width: 280px;
 }
