@@ -2,21 +2,33 @@
     font-family: monospace;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: black;
+}
+
 .navegacion {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     background-color: black;
 }
 
 .page {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    position: absolute;
+}
+
+.page div{
+    display: flex;
 }
 
 .logos-left,
@@ -63,15 +75,7 @@
     color: #00f7ff;
 }
 
-html,
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background: black;
-}
+
 
 .redes ul {
     list-style: none;
@@ -169,22 +173,27 @@ body {
 
 .banner {
     background-color: white;
-    margin-top: 50px;
-    height: 800px;
-    width: 1500px;
+    height: 700px;
+    width: 1200px;
     align-self: center;
 }
 
-.perfil {
+.foto-banner {
+    height: 700px;
+    width: 1200px;
 
 }
 
-.AcercaDe{
-    width: 250px;
-    height: 250px;
+.perfil{
+    height: 700px;
+    width: 1200px;
 }
 
-.foto{
-    height: 300px;
-    width: 280px;
+.AcercaDe {
+    height: 50px;
+    background-color: blue;
+}
+
+.foto {
+    
 }
