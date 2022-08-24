@@ -179,23 +179,36 @@ body {
 }
 
 .banner {
-    background-color: rgb(29, 75, 202);
+    background-color: rgb(50, 51, 54);
     height: 100vh;
     width: 100%;
-    align-self: center;
+    justify-content: center;
+}
+.perfil{
+    background-color: white;;
+    height: 100%;
+    width: 80%;
+    
 }
 
 .foto-banner {
-    height: 700px;
-    width: 1200px;
-
+    height: 100%;
+    width: 100%;
 }
 
 .AcercaDe {
-    height: 50px;
-    background-color: blue;
+    justify-content: center;
 }
 
-.foto {
-    
+.cuadro{
+    height: 250px;
+    width: 80%;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.info-foto{
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
 }
