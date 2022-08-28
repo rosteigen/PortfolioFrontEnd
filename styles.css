@@ -22,7 +22,7 @@ body {
 
 .page div{
     display: flex;
-    align-items: center;
+    
 }
 
 .navegacion {
@@ -204,6 +204,7 @@ body {
 .AcercaDe {
     justify-content: center;
     background-color: rgb(0, 0, 0);
+    width: 90%;
 }
 
 .cuadro{
@@ -258,7 +259,8 @@ body {
     font-size: 14px;
 }
 
-.division{    
+.division{
+    margin-top: 80px;
     background-color: rgb(0, 0, 0);
     width: 50%;
 }
