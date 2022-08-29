@@ -352,3 +352,43 @@ hr{
     justify-content: center;
     color: white;
 }
+
+.imgs-skills{
+    flex-direction: column;
+    
+}
+
+.imgs-skills1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-evenly
+}
+
+.imgs-skills2{
+    justify-content: space-evenly;
+}
+
+.idiomas{
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+.idioma1{
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idioma2{
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
