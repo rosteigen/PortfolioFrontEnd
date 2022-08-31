@@ -41,6 +41,7 @@ body {
 .menu a {
     color: #f2f2f2;
     text-decoration: none;
+    
 }
 
 .menu ul {
@@ -48,22 +49,13 @@ body {
     height: 50px;
     margin: 0;
     padding: 0;
+    
 }
 
-
-.logos-left,
-.logos-right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logos-right {
-    margin-right: 75px;
-}
-
-.logos-left {
-    margin-left: 75px;
+.menu ul li{
+    display: inline-block;
+    font-size: 15px;
+    
 }
 
 .redes ul {
