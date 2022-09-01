@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .page {
@@ -18,7 +18,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .page div {
@@ -29,7 +29,7 @@ body {
 .navegacion {
     width: 100%;
     height: 50px;
-    background-color: rgba(231, 12, 12, 0);
+    background-color: rgba(255, 255, 255, 0);
     position: fixed;
     z-index: 1;
     justify-content: center;
@@ -165,12 +165,12 @@ body {
     width: 100%;
     height: 100%;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
 
 .banner {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -178,7 +178,7 @@ body {
 }
 
 .perfil {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
     position: relative;
@@ -214,8 +214,9 @@ body {
 }
 
 .AcercaDe {
+    
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 800px;
     align-self: center;
@@ -226,8 +227,6 @@ body {
     width: 100%;
     background-color: rgb(255, 255, 255);
     justify-content: space-evenly;
-    color: white;
-    margin-top: 40px;
 }
 
 .acerca-right {
@@ -251,13 +250,13 @@ body {
 
 .titulo,
 .titulo p {
-    color: white;
+    color: black;
     font-size: 50px;
     font-family: Verdana;
 }
 
 .info {
-    color: white;
+    color: black;
     font-family: Verdana;
     text-align: center;
     font-size: 20px;
@@ -280,12 +279,12 @@ hr {
     justify-content: space-around;
     width: 100%;
     align-self: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo-exp {
     font-size: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: center;
 }
 
@@ -300,7 +299,7 @@ hr {
 .exp3 {
     justify-content: space-evenly;
     margin-top: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .logo-fiverr {
@@ -323,13 +322,13 @@ hr {
     justify-content: center;
     width: 100%;
     align-self: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo-edu {
     font-size: 50px;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .titulo-edu1,
@@ -343,7 +342,7 @@ hr {
 .edu3 {
     justify-content: space-evenly;
     margin-top: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .info-edu1,
@@ -358,14 +357,14 @@ hr {
 
 .skills {
     flex-direction: column;
-    background-color: #000000;
+    background-color: #ffffff;
     width: 100%;
 }
 
 .titulo-skills {
     font-size: 50px;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .imgs-skills {
@@ -385,14 +384,14 @@ hr {
 
 .idiomas {
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     margin-top: 30px;
 }
 
 .idioma1 {
     margin-top: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
@@ -409,7 +408,7 @@ hr {
 
 .idioma2 {
     margin-top: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
